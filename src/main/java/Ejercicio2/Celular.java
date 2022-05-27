@@ -25,7 +25,7 @@ public class Celular {
         return tamano;
     }
 
-    public void setTamano(String tamanio) {
+    public void setTamano(String tamano) {
         this.tamano = tamano;
     }
 

@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85f85632-46d1-4415-8f57-51a1e43a4b7b" name="Changes" comment="Parcial 1-Commit2.5">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio2/Camara.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio2/Celular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio2/Client.java" afterDir="false" />
+    <list default="true" id="85f85632-46d1-4415-8f57-51a1e43a4b7b" name="Changes" comment="Parcial 1-Commit Ejercicio Prototype">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio3/Camiseta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio3/CamisetaCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio3/ElementoCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio3/Medias.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio3/MediasCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio3/iElemento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ejercicio2/Celular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ejercicio2/Celular.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +52,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Ejercicio3" />
       <recent name="ejercicio1" />
     </key>
   </component>
@@ -81,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653655261243</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Parcial 1-Commit Ejercicio Prototype">
+      <created>1653656090850</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653656090850</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +112,7 @@
     <MESSAGE value="Parcial 1-Commit1" />
     <MESSAGE value="Parcial 1-Commit2" />
     <MESSAGE value="Parcial 1-Commit2.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parcial 1-Commit2.5" />
+    <MESSAGE value="Parcial 1-Commit Ejercicio Prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parcial 1-Commit Ejercicio Prototype" />
   </component>
 </project>

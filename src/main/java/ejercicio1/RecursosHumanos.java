@@ -1,16 +1,33 @@
 package ejercicio1;
 
+
+import java.util.Date;
 public class RecursosHumanos {
 
-    public static void main(String[]args){
+    private String nombre;
+    private String ci;
 
-        Materia1 m1 = Materia1.getInstance();
-        Materia2 m2 = Materia2.getInstance();
-        Materia3 m3 = Materia3.getInstance();
-        Materia4 m4 = Materia4.getInstance();
-        System.out.println("Materia 1: "+m1);
-        System.out.println("Materia 2: "+m2);
-        System.out.println("Materia 3: "+m3);
-        System.out.println("Materia 4: "+m4);
+    public RecursosHumanos() {}
+    public String getNombre() {
+        return nombre;
+    }
+    public void setNombre(String nombre){
+        this.nombre=nombre;
+    }
+    public String getCi() {
+        return ci;
+    }
+    public void setCi(String ci){
+        this.ci=ci;
+    }
+
+    public void RegistrarTesis(Tesis tesis, Date date ) {
+        BaseDeDatosTesis.getInstance().registrarTesis(tesis, date);
+    }
+
+    public void mostrarDatosRegistro(){
+        BaseDeDatosTesis.getInstance().mostrarRegistro();
+    }
+}
 
 
